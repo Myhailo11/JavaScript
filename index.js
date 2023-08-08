@@ -218,3 +218,91 @@
 
 //}
 
+
+//масиви
+
+//const arr =["тарас", "антон", "макс",];
+
+//arr[1] ="олаг"
+
+//console.log(arr);
+
+// let a = 5;
+// let b = a;
+// console.log(a);
+// console.log(b)
+// a.;
+
+// a = 10
+
+// console.log(a);
+// console.log(b);
+
+//методи масив
+//split
+
+// const namberst = [];
+// console.log(namberst);
+// namberst.
+
+//    const clients =["taras" , "anton" , "max" ,"olga"];
+
+
+//    const sores = [1, 2, 3, 4, 5];
+//    const defaultScores = scores.splise(o,3);
+//    console.log(sores);
+//    console.log(deletedSores);
+
+//    const color = ["reg", "grin"]
+
+//    //function
+//    //function name
+//    //
+
+//    function sayHello(); {
+//       console.log("hello");
+//    }
+//    sayHello();
+
+//    funxction calc(x,y,i){
+//     console.log();
+//       return x,y,i;
+//    console.log();   
+//    }
+
+// const book = {
+//    title:''
+//    author:''
+//    isPublict:true
+//    rating:
+//    pages:500;
+// }
+
+
+function ears(age) {
+if(age < 18){
+   console.log('не повнолітні');
+
+}
+else{
+   console.log('повнолітні')
+}
+}
+ears(5);
+
+
+
+
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
