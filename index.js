@@ -292,31 +292,31 @@
 
 //slice(begin,end)-
 
-const clients = ["Taras", "Anton", "Maks", "Olga"]
+// const clients = ["Taras", "Anton", "Maks", "Olga"]
 
-console.log(clients.slice(1,4))
+// console.log(clients.slice(1,4))
 
-const newClients = clients.slice(1,4)
-console.log(clients);
-console.log(newClients);
+// const newClients = clients.slice(1,4)
+// console.log(clients);
+// console.log(newClients);
 
-//splice(position, num)
+// //splice(position, num)
 
-const scores = [1, 2, 3, 4, 5]
-const deletedScores =scores.splice(0,3)
-console.log(scores);
-console.log(deletedScores);
+// const scores = [1, 2, 3, 4, 5]
+// const deletedScores =scores.splice(0,3)
+// console.log(scores);
+// console.log(deletedScores);
 
-const colors = ["red", "green"]
-colors.splice(2, 0, "yellow")
-console.log(colors);
+// const colors = ["red", "green"]
+// colors.splice(2, 0, "yellow")
+// console.log(colors);
 
-//concat
+// //concat
 
-const oldArr = [1,2,3]
-const newArr = [4,5,6]
-const arr = oldArr.concat(newArr)
-console.log(arr);
+// const oldArr = [1,2,3]
+// const newArr = [4,5,6]
+// const arr = oldArr.concat(newArr)
+// console.log(arr);
 
 // function
 
@@ -360,15 +360,15 @@ console.log(arr);
 // console.log(book.stats);
 // console.log(book.arr);
 
-function age (x) {
-if (x < 18) {
-    console.log("Ви неповнолітній")
-} else {
-    console.log("Ви повнолітній");
-}
-}
+// function age (x) {
+// if (x < 18) {
+//     console.log("Ви неповнолітній")
+// } else {
+//     console.log("Ви повнолітній");
+// }
+// }
 
-age(17);// ключове слово імя змінної = значення
+// age(17);// ключове слово імя змінної = значення
 // let, const , var - ключові слова.
 // const varName = "var name";
 // const varname = "sd";
@@ -741,13 +741,16 @@ age(17);// ключове слово імя змінної = значення
 // age(17);
 
 
-// const car = "yellow"
-// if (car ==="yellow"){
-//    console.log("авто жовтого колору");
-// } else {
-//    console.log("  
-//    авто іншого колору")
-// }
+//  const car = "yellow"
+//  if (car ==="yellow"){
+//     console.log("авто жовтого колору");
+//  } else {
+//     console.log("авто іншого колору") 
+    
+//  }
+
+//  const {id,user,location} =  car
+// console.log(id,user,location)
 
 
 // let counter = 1000;
@@ -758,13 +761,93 @@ age(17);// ключове слово імя змінної = значення
 
 // }
 
-for (let i = 0; i < 3500; i=i+200) {
-   console.log(i)
-if(i==2000){
-   break
-}
+//  for (let i = 0; i < 3500; i=i+200) {
+//     console.log(i)
+//  if(i==2000){
+//     break
+//  }
    
+//  }
+
+
+// const egd =[200, 255, 100,];
+// const [,,blue] =rgb;
+
+const cars = [
+    {
+        name:"Audi",
+        color:"red",
+        year:2020,
+    },
+    {
+        name:"Bmw",
+        color:"yellow",
+        year:2022,   
+    },
+    {
+        name:"Renauti",
+        color:"black",
+        year:2000, 
+    }
+]
+
+const cars2 = [
+    {
+        name:"Audi",
+        color:"red",
+        year:2020,
+    },
+    {
+        name:"Bmw",
+        color:"yellow",
+        year:2022,   
+    },
+    {
+        name:"Renauti",
+        color:"black",
+        year:2000, 
+    }
+]
+const combine = [...cars, ...cars2];
+
+const audi ={
+    name:"augi",
+    color:"black",
+    year:2020
+
 }
+const mers ={
+    name:"mers",
+    color:"black",
+    year:2000
+}
+const fiat ={
+    name:"fiat",
+    color:"black",
+    year:2028
+
+}
+const favoritecars =[
+    fiat,
+    mers,
+    audi,
+    fiat
+
+];
+console.log (favoritecars)
+
+for (let i = 0; i < favoritecars.length; i++) {
+    const element = favoritecars[i];
+    let sum = 0
+     sam=sam + element.year
+    console.log(sam)
+    
+}
+    
+
+
+
+
 
 
 
