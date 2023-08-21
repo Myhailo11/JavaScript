@@ -849,36 +849,99 @@
 
 
 
-function foo(name) {
-    return (`ласкаво просимоч  ${name}`);
-}
+// function foo(name) {
+//     return (`ласкаво просимоч  ${name}`);
+// }
 
-// Функція зворотного виклику (callback, колбек) - це функція, яка передається
-//  іншій функції як аргумент,
-//  а та, в свою чергу, викликає передану функцію.
-// console.log(foo("IVAN"));
+// // Функція зворотного виклику (callback, колбек) - це функція, яка передається
+// //  іншій функції як аргумент,
+// //  а та, в свою чергу, викликає передану функцію.
+// // console.log(foo("IVAN"));
 
-// console.log(foo)
-
-
-function highFoo(name, callback) {
- console.log(`рееструемо гостя ${name}`); 
- callback(name);  
-}
-highFoo("IVAN",foo);
-
-// Функція вищого порядку (higher order function) - функція,
-// яка приймає у якості параметрів інші функції або повертає функцію у якості результату.
+// // console.log(foo)
 
 
-highFoo("Bernar", function notify(name) {
-    console.log(Шановни ${name},30)
-}
+// function highFoo(name, callback) {
+//  console.log(`рееструемо гостя ${name}`); 
+//  callback(name);  
+// }
+// highFoo("IVAN",foo);
 
-//якшо колбек-функія - маленка і потрібна для передачі аргументів
-//іі можна оголосити безпосередно на момент виклику  в яку передаемо колбек
-//така функія буде  доступна тілки у якості значення параметра і білше ніде в коді
+
+// // Функція вищого порядку (higher order function) - функція,
+// // яка приймає у якості параметрів інші функції або повертає функцію у якості результату.
+
+
+// highFoo("Bernar", function notify(name) {
+//     console.log(Шановни ${name},30)
+// }
+
+// якшо колбек-функія - маленка і потрібна для передачі аргументів
+// іі можна оголосити безпосередно на момент виклику  в яку передаемо колбек
+// така функія буде  доступна тілки у якості значення параметра і білше ніде в коді
+
+// const cars = [
+//          {
+//              name:"Audi",
+//             color:"red",
+//              year:2020,
+//         },
+//          {
+//             name:"Bmw",
+//             color:"yellow",
+//              year:2022,   
+//         },
+//    {
+//              name:"Renauti",
+//             color:"black",
+//              year:2000, 
+//          }
+//         ]
     
+ 
+// array.forEach(element => {
+//   // тіло функі  
+// });
+
+// const NUMBER = [2, 3, 4, 5, 6, 7];
+
+// for (let i = 0; i < NUMBER.length; i++) {
+//     console.log("індеx" ${i}, значення${namber}  );
+// }
+//  namber.log(`forEach інде  ${index}, значення${namber}`);
+ 
+ //forEach - поелементно переберае масив 
+ //виклика колбек-функі для кожного елемента масиву 
+ //нічого не повертае
+
+
+ const names = [
+    "вася",
+    "степан",
+    "кіт",
+    "собака",
+    "тузик"
+ ];
+ names.forEach(function(element,index){
+    console.log(` привіт, мене звати   ${element} !`);
+ })
+
+ function classic(){
+    return a * b * c
+ };
+
+ const arrow =(a, b, c) => {
+    return a * b * c
+ };
+ const add = (a) => {
+    return a + 5;
+ }
+
+ const logMessage = (item, item) => {
+    console.log(`forEach індекс ${ingex}, значення${item}`);
+ };
+ 
+ namber.forEach(logMessage);
 
 
 
