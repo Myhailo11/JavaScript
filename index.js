@@ -915,33 +915,90 @@
  //нічого не повертае
 
 
- const names = [
-    "вася",
-    "степан",
-    "кіт",
-    "собака",
-    "тузик"
- ];
- names.forEach(function(element,index){
-    console.log(` привіт, мене звати   ${element} !`);
- })
+//  const names = [
+//     "вася",
+//     "степан",
+//     "кіт",
+//     "собака",
+//     "тузик"
+//  ];
+//  names.forEach(function(element,index){
+//     console.log(` привіт, мене звати   ${element} !`);
+//  })
 
- function classic(){
-    return a * b * c
- };
+//  function classic(){
+//     return a * b * c
+//  };
 
- const arrow =(a, b, c) => {
-    return a * b * c
- };
- const add = (a) => {
-    return a + 5;
- }
+//  const arrow =(a, b, c) => {
+//     return a * b * c
+//  };
+//  const add = (a) => {
+//     return a + 5;
+//  }
 
- const logMessage = (item, item) => {
-    console.log(`forEach індекс ${ingex}, значення${item}`);
- };
+//  const logMessage = (item, item) => {
+//     console.log(`forEach індекс ${ingex}, значення${item}`);
+//  };
  
- namber.forEach(logMessage);
+//  namber.forEach(logMessage);
+
+
+// const planats = ["Земля", "марс", "меркурии"]
+
+// const planatsUpp = planats.map((item) => item.toUpperCase());
+// console.log(planatsUpp);
+// console.log(planats):
+
+//Array.mep((item)) => {} )
+//поелементно перебирае масив
+//не зміне оригиналнии масив
+//резултат записуе в новии масив
+//повертае новии масив однаковоі дожини
+
+
+const name = studenst.map((stugents) => studenst.name);
+console.log(names)
+
+
+const studenst = [
+   { name: polli, score: 0 },
+   { name: polli, score: 23 },
+   { name: polli, score: 23 },
+   { name: polli, score: 12 },
+]
+
+const studensMep = stugents.map((students) => students.courses);
+console.log("використовуемо метод мап",stugentsMap);
+const studentsFletMap = stugents.fletMap((student) => students.courses);
+console.log("використовуемо метод меп", studentsFletMap);
+
+
+const velute = [51, -3, 27, 21, -68, 42, -37];
+conts positive = velues.filter((velue)  => value >= 0);
+console.log(positive);
+const negative = valute.filter((velue) => velue <= 0 )
+console.log(negative)
+
+// arr.filter(callbeck)
+//не змін
+//
+//
+//
+//
+//
+//
+
+
+
+
+
+
+
+
+
+
+
 
 
 
