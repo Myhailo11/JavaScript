@@ -962,11 +962,11 @@ console.log(names)
 
 
 const studenst = [
-   { name: polli, score: 0 },
-   { name: polli, score: 23 },
-   { name: polli, score: 23 },
-   { name: polli, score: 12 },
-]
+   { name: "polli", score: 0 ,courses:["математика","фізкултура","біологія"]},
+   { name: "polli3", score: 23 ,courses:["фізкултура","математика","фізика"]}, 
+   { name: "polli2", score: 23 ,courses:["фізика","фізкултура","укр мова"]},
+   { name: "polli3", score: 12 ,courses:["математика","укр мова","укр літ"]}
+];
 
 const studensMep = stugents.map((students) => students.courses);
 console.log("використовуемо метод мап",stugentsMap);
