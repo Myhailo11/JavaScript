@@ -957,37 +957,89 @@
 //повертае новии масив однаковоі дожини
 
 
-const name = studenst.map((stugents) => studenst.name);
-console.log(names)
+// const name = studenst.map((stugents) => studenst.name);
+// console.log(names)
 
 
-const studenst = [
-   { name: "polli", score: 0 ,courses:["математика","фізкултура","біологія"]},
-   { name: "polli3", score: 23 ,courses:["фізкултура","математика","фізика"]}, 
-   { name: "polli2", score: 23 ,courses:["фізика","фізкултура","укр мова"]},
-   { name: "polli3", score: 12 ,courses:["математика","укр мова","укр літ"]}
-];
+// const studenst = [
+//    { name: "polli", score: 0 ,courses:["математика","фізкултура","біологія"]},
+//    { name: "polli3", score: 23 ,courses:["фізкултура","математика","фізика"]}, 
+//    { name: "polli2", score: 23 ,courses:["фізика","фізкултура","укр мова"]},
+//    { name: "polli3", score: 12 ,courses:["математика","укр мова","укр літ"]}
+// ];
 
-const studensMep = stugents.map((students) => students.courses);
-console.log("використовуемо метод мап",stugentsMap);
-const studentsFletMap = stugents.fletMap((student) => students.courses);
-console.log("використовуемо метод меп", studentsFletMap);
+// const studensMep = stugents.map((students) => students.courses);
+// console.log("використовуемо метод мап",stugentsMap);
+// const studentsFletMap = stugents.fletMap((student) => students.courses);
+// console.log("використовуемо метод меп", studentsFletMap);
 
 
-const velute = [51, -3, 27, 21, -68, 42, -37];
-conts positive = velues.filter((velue)  => value >= 0);
-console.log(positive);
-const negative = valute.filter((velue) => velue <= 0 )
-console.log(negative)
+// const velute = [51, -3, 27, 21, -68, 42, -37];
+// conts positive = velues.filter((velue)  => value >= 0);
+// console.log(positive);
+// const negative = valute.filter((velue) => velue <= 0 )
+// console.log(negative)
 
-// arr.filter(callbeck)
-//не змін
-//
-//
-//
-//
-//
-//
+// // arr.filter(callbeck)
+// //не змін
+// //
+// //
+// //
+// //
+// //
+
+
+const myAgeLastNamber =3;
+
+const myLetterNamber = 9
+
+function myNamberstAge (myAgeLastNamber, myLetterNamber ){
+   console.log(myAgeLastNamber + myLetterNamber)
+}
+
+myNamberstAge(3 ,9)
+
+function plus (x, y){
+   console.log(x+y)
+}
+plus(2 ,4)
+
+function multi (x, y){
+   console.log(x*y)
+}
+multi(2 ,4)
+
+function divide (x, y){
+   console.log(x/y)
+}
+divide(2 ,4)
+
+
+const students = [
+   { name: "Taras", age: 14, height: 1.5 },
+   { name: "Jack", age: 13, height: 1.32 },
+   { name: "Olga", age: 12, height: 1.42 },
+   { name: "Ivan", age: 11, height: 1.21 },
+ ];
+ students.forEach(function(item,index){
+   const heightM=item.height*100;
+        console.log(` привіт, мене звати ${item.name} мені ${item.age} років маю висоту ${heightM} см !`);
+     })
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
 
 
 
